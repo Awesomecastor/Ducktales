@@ -1,0 +1,15 @@
+@font-face {
+    font-family: EarlyGameBoy;
+    src: url("./font/early_gameboy/EarlyGameBoy.ttf");
+}
+body {
+  background-image: url("./img/background.jpg");
+  background-size: cover;
+}
+button{
+    font-family: EarlyGameBoy;
+    font-size: 25px;
+    padding: 10px 5px 10px 5px;
+    margin: 20px 0 0 0;
+    border: double 5px black;
+}

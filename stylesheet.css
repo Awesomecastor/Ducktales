@@ -5,6 +5,7 @@
 body {
   background-image: url("./img/background.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 button{
     font-family: EarlyGameBoy;
@@ -12,4 +13,14 @@ button{
     padding: 10px 5px 10px 5px;
     margin: 20px 0 0 0;
     border: double 5px black;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.flexbutton{
+  margin:10px;
 }
